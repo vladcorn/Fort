@@ -25,12 +25,6 @@
     <link href="css/main.css" rel="stylesheet">
     <!-- Connected fonts -->
     <!--<link href="css/fonts.css" rel="stylesheet">
-
-
-
-
-
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,7 +38,6 @@
 <!-- МЕНЮ НАВИГАЦИИ -->
 <div id="menu" class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
                 <span class="sr-only">Открыть навигацию</span>
@@ -60,13 +53,9 @@
             <ul class="nav navbar-nav">
                 <li><a href="#home", id="home_href">Домой</a></li>
                 <li><a href="#about">О компании</a></li>
-                <li><a href="#searchTrains">Поиск поездов</a></li>
+                <li><a href="#selection">Выбор оборудывания</a></li>
                 <li><a href="#contacts">Контакты</a></li>
             </ul>
-
-
-
-
         </div>
 
     </div>
@@ -83,26 +72,38 @@
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+        <li data-target="#carousel" data-slide-to="5"></li>
+
     </ol>
 
     <!--Слайды-->
     <div id="home" class="carousel-inner">
         <div class="item active">
-            <img src="images/train1.jpg" alt="" width="100%">
+            <img src="images/corousel1.jpg" alt="" width="100%">
             <h1>Главное - выбрать правильный вектор. Скорость. Надежность. Сервис.</h1>
         </div>
         <div class="item">
-            <img src="images/train2.jpg" alt="" width="100%">
+            <img src="images/corousel2.jpg" alt="" width="100%">
             <h1>Сквозь время и расстояние.</h1>
         </div>
         <div class="item">
-            <img src="images/train3.jpg" alt="" width="100%">
+            <img src="images/corousel3.jpg" alt="" width="100%">
             <h1>Мы возим куда никто не возит.</h1>
         </div>
         <div class="item">
-            <img src="images/train4.jpg" alt="" width="100%">
+            <img src="images/corousel4.jpg" alt="" width="100%">
             <h1>Сокращаем расстояние. Экономим время.</h1>
         </div>
+        <div class="item">
+            <img src="images/corousel5.jpg" alt="" width="100%">
+            <h1>Сокращаем расстояние. Экономим время.</h1>
+        </div>
+        <div class="item">
+            <img src="images/corousel6.jpg" alt="" width="100%">
+            <h1>Сокращаем расстояние. Экономим время.</h1>
+        </div>
+
     </div>
 
     <!--Стрелки переключения слайдов-->
@@ -122,7 +123,7 @@
     <div id="about" class="header">
         <div class="block">
             <div class="blockItem">
-                <h1>НОВОСТИ, ИНФОРМАЦИЯ ДЛЯ ПАССИЖИРОВ</h1>
+                <h1>О нашей компании</h1>
             </div>
         </div>
     </div>
@@ -184,8 +185,6 @@
                             <p>На сегодняшний день в экплуатации Украинской железнодорожной скоростной компании
                                 находится новейший подвижный состав: 10 электропоездов производства компании «Hyundai
                                 Rotem»;
-                                2 поезда локомотивной тяги производства ПАО «Крюковский вагоностроительный завод»;
-                                2 двухсистемные электропоезда Экр-1 производства ОАО «КВСЗ».
                             </p>
                         </div>
                         <div class="clr"></div>
@@ -224,6 +223,13 @@
                 <div class="clr"></div>
                 <!--  -->
             </div>
+        </div>
+    </div>
+</div>
+<div id="selection" class="header">
+    <div class="block">
+        <div class="blockItem">
+            <h1>Подбери себе оборудывание</h1>
         </div>
     </div>
 </div>
@@ -280,9 +286,9 @@
 
         <div class="footer-icons">
             <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="https://vk.com/vladimir__kravtsov"><i class="fa fa-vk"></i></a>
+            <a href="#"><i class="fa fa-vk"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="https://github.com/KravtsovVladimir"><i class="fa fa-github"></i></a>
+
         </div>
 
     </div>
@@ -369,7 +375,22 @@
     });
 </script>
 
+<script>
+    jQuery(window).scroll(function(){
+        var $sections = $('section');
+        $sections.each(function(i,el){
+            var top  = $(el).offset().top-100;
+            var bottom = top +$(el).height();
+            var scroll = $(window).scrollTop();
+            var id = $(el).attr('id');
+            if( scroll > top && scroll < bottom){
+                $('a.active').removeClass('active');
+                $('a[href="#'+id+'"]').addClass('active');
 
+            }
+        })
+    });
+</script>
 
 
 

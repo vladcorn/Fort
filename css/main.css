@@ -7,6 +7,7 @@
 
 /*МЕНЮ НАВИГАЦИИ*/
 #responsive-menu {
+    text-transform: uppercase;
     font-family: 'Cormorant';
     font-size: 18px;
     font-weight: 400;
@@ -14,12 +15,12 @@
 
 /*ЗАГОЛОВОК БЛОКА*/
 .header {
-    background-color: #A9E2F3;
+    background-color: #33383B;
     text-align: center;
     height: 51px;
     padding: 1px;
     text-transform: uppercase;
-    color: #081c3d;
+    color: #ffffff;
 }
 .blockItem h1{
     margin-bottom: 10px;

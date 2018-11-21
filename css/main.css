@@ -6,19 +6,19 @@
 }
 .aboutBlock{
      padding-top: 60px;
-     padding-bottom: 118px;
+     padding-bottom: 110px;
      display: flex;
      flex-flow: column nowrap;
      align-items: center;
      text-align: center;
  }
 .aboutBlock p{
-    max-width: 760px;
-
+    max-width: 850px;
+    font-size: 20px;
 
 }
 
-/*МЕНЮ НАВИГАЦИИ*/
+
 #responsive-menu {
     text-transform: uppercase;
     font-family: 'Cormorant';
@@ -186,6 +186,26 @@ label.error {
 }
 
 
+.calc{
+    padding-top: 86px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.calc_stats{
+    font-size: 1.8rem;
+}
+.calc_stats input,select{
+    margin-top: 15px;
+    border: none;
+    box-shadow: 0px 0px 40.10px 0.02px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+
 
 .footer-distributed {
     background-color: #292c2f;
@@ -197,6 +217,9 @@ label.error {
     padding: 15px 10px;
     margin-top: 80px;
 }
+
+
+
 @media (max-height: 800px) {
     footer {
         position: static;

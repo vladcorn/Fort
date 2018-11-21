@@ -51,7 +51,7 @@
 </div>
 
 <!-- СЛАЙДЕР -->
-<div id="carousel" class="carousel slide">
+<div id="carousel" class="carousel slide" style="max-height: 700px">
 
     <!--Индикаторы слайдов-->
     <ol class="carousel-indicators">
@@ -65,9 +65,9 @@
     </ol>
 
     <!--Слайды-->
-    <div id="home" class="carousel-inner">
+    <div id="home" class="carousel-inner" style="max-height: 700px">
         <div class="item active">
-            <img src="images/corousel1.jpg" alt="" width="100%">
+            <img src="images/corousel1.jpg" alt="" width="100%" >
             <h1>Главное - выбрать правильный вектор. Скорость. Надежность. Сервис.</h1>
         </div>
         <div class="item">
@@ -128,18 +128,27 @@
     </div>
 </div>
 
-<form id="FormMyLvl" name="FormMyLvl" >
-    <select name="SelectMyLvl" id="SelectMyLvl" onchange='Calc()' >
+<div class="calc" id="FormMyLvl" name="FormMyLvl" >
 
-        <option  value="">Выберете свой уровень</option>
-        <option  value="130">Basic</option>
-        <option  value="200">Mid</option>
-        <option  value="300">Pro</option>
+    <div class="calc_stats">
+        <p>Выбери свой уровень</p>
+        <select name="SelectMyLvl" id="SelectMyLvl" onclick='Calc()'onchange="Calc()" >
+            <option  value="">Выберете свой уровень</option>
+            <option  value="130">Basic</option>
+            <option  value="200">Mid</option>
+            <option  value="300">Pro</option>
+        </select>
+    </div>
+    <div class="calc_stats">
+        <p>Cколько часов вы хотите играть?</p>
+        <input type="text" id="hours" value="1" onchange="Calc()">
+    </div>
+    <div class="calc_stats">
+        <p>Ваша сумма</p>
+        <input type="text" id="target">
+    </div>
 
-    </select>
-    <input type="text" id="hours" value="1">
-    <input type="text" id="target">
-</form>
+</div>
 
 
 

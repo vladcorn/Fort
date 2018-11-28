@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
     <!-- Style.css -->
     <link href="css/main.css" rel="stylesheet">
-
+    <script src="js/jquery.jbcallme.min.js"></script>
 
 </head>
 <body>
@@ -105,7 +105,6 @@
 
 <!-- БЛОК НОВОСТЕЙ -->
 <div class="articlesSection">
-
     <!-- Заголовок блока -->
     <div id="about" class="header">
         <div class="block">
@@ -120,15 +119,81 @@
       <p>СТК «Форт21» - спортивно-туристический клуб, занимающийся проведением страйкбольных мероприятий в г. Харьков, Украина. Клуб состоит из нескольких команд и не является коммерческой организацией. Клуб был сформирован как инструмент, для объединения усилий различных команд по развитию хобби на юридическом уровне. Основная цель клуба — продвижение и популяризация страйкбольных игр на территории Украины и г. Харькова в частности. В поле интересов клуба входят как классические страйкбольные мероприятия, так и различные варианты ролевых и милсим проектов. Организаторская команда клуба успела зарекомендовать себя в проведении игр различного типа: игр выходного дня (воскресок), игр турнирного типа и более крупных проектов с элементами милсим...</p>
   </div>
 
-<div id="selection" class="header">
-    <div class="block">
-        <div class="blockItem">
-            <h1>Подбери себе оборудывание</h1>
+<div class="articlesSection">
+    <div id="selection" class="header">
+        <div class="block">
+            <div class="blockItem">
+                <h1>Подбери себе оборудывание</h1>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="calc" id="FormMyLvl" name="FormMyLvl" >
+<div class="cc_service cc_toppadder80 cc_bottompadder50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="service_section">
+                        <div class="service_top">
+                            <img src="https://img.icons8.com/ios/50/ffffff/1.png">
+                        </div>
+                        <h3>Basic</h3>
+                        <p>I sink under the weight of the splendour of these visions. A wonderful serenity  Which for the bliss of souls like mine.</p>
+                        <button type="button" class="cc_btn" data-price="Комплект 'Basic', 300grh">Заказать</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="service_section">
+                        <div class="service_top">
+                            <img src="https://img.icons8.com/ios/50/ffffff/2.png">
+                        </div>
+                        <h3>Mid</h3>
+                        <p>I sink under the weight of the splendour of these visions. A wonderful serenity  Which for the bliss of souls like mine.</p>
+                        <button type="button" class="cc_btn" data-price="Комплект 'MID', 200grh">Заказать</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="service_section">
+                        <div class="service_top">
+                            <img src="https://img.icons8.com/ios/50/ffffff/3.png">
+                        </div>
+                        <h3>Pro</h3>
+                        <p>I sink under the weight of the splendour of these visions. A wonderful serenity  Which for the bliss of souls like mine.</p>
+                        <button type="button" class="cc_btn" data-price="Комплект 'PRO', 300grh">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</div>
+<!--<div class="price">
+    <div class="level">
+        <input type="button" onclick="" value="130">
+    </div>
+
+
+    <div class="level">
+        <input type="button" onclick="" value="200">
+    </div>
+
+
+    <div class="level">
+        <input type="button" onclick="" value="300">
+    </div>
+
+</div>
+
+<div class="submt">
+    <input type="text" id="target">
+    <input type="button" id="submit" onclick="" value="sadadsd">
+</div>-->
+
+
+
+
+
+<!--<div class="calc" id="FormMyLvl" name="FormMyLvl" >
 
     <div class="calc_stats">
         <p>Выбери свой уровень</p>
@@ -148,7 +213,7 @@
         <input type="text" id="target">
     </div>
 
-</div>
+</div>-->
 
 
 
@@ -222,9 +287,43 @@
 </div>
 
 
+<script>
+    $(function() {
+        $('.cc_btn').jbcallme({
+            postfix: 'service_order', // идентификатор окна
+            // поля tel и name установлены по-умолчанию. Отключаются добавлением no_tel:true и no_name:true
+            //no_tel: true, // не выводить стандартное поле телефона
+            no_name: true,
+            no_submit: true, // не выводить стандартную кнопку
+            title: "Заказ оборудывания", // заголовок окна
+            action_url: "/postmaster.php", // путь к обработчику запрсов
+            success: "Заказ принят и будет рассмотрен в ближайшее время",
+            fail: "Сообщение не доставлено. Извините за неудобство!",
+            fields: { // добавление полей
+                company: {
+                    required: true, // обязательное ли
+                    placeholder: "Ваше имя",
+                    type: "text",
+                },
+               price: {
+                    label: "Выбраный комплект и Цена",
+                    type: "text", // или "hidden", чтобы не выводилось в форме
+                },
 
+                action: { // невидимое поле, передющее тип формы
+                    type: "hidden",
+                    value: "service_order",
+                },
+                send: {
+                    type: "submit",
+                    value: "Заказать",
+                },
+            },
+        });
+    });
+</script>
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
     function SelectDefault()
     {
         document.getElementById("SelectMyLvl").options[0].selected=true;
@@ -239,7 +338,7 @@
             input.value = price;
         }else input.value = price*hours;
     }
-</script>
+</script>-->
 
 <!--Organization anchor scrolling-->
 <script>
@@ -252,7 +351,7 @@
                 //узнаем высоту от начала страницы до блока на который ссылается якорь
                 top = $(id).offset().top;
             //анимируем переход на расстояние - top за 1000 мс
-            $('body,html').animate({scrollTop: top}, 1000);
+            $('body,html').animate({scrollTop: top}, 1250);
         });
     });
 
@@ -286,22 +385,8 @@
     });
 </script>
 
-<script>
-    jQuery(window).scroll(function(){
-        var $sections = $('section');
-        $sections.each(function(i,el){
-            var top  = $(el).offset().top-100;
-            var bottom = top +$(el).height();
-            var scroll = $(window).scrollTop();
-            var id = $(el).attr('id');
-            if( scroll > top && scroll < bottom){
-                $('a.active').removeClass('active');
-                $('a[href="#'+id+'"]').addClass('active');
 
-            }
-        })
-    });
-</script>
+
 
 
 

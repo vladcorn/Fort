@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de2b6809-2636-484b-b0eb-85a26d8e8262" name="Default Changelist" comment="Изменил скорость загрузки&#10;Добавил стили на калькулятор &#10;заменил картинки">
-      <change afterPath="$PROJECT_DIR$/js/jquery.jbcallme.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postmaster.php" afterDir="false" />
+    <list default="true" id="de2b6809-2636-484b-b0eb-85a26d8e8262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/telegram.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.jbcallme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postmaster.php" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,37 +22,48 @@
     <session id="-309337501">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="608" />
-          <entry key="html" value="903" />
-          <entry key="php" value="130" />
+          <entry key="css" value="1300" />
+          <entry key="html" value="2528" />
+          <entry key="js" value="278" />
+          <entry key="php" value="561" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="608" />
-          <entry key="HTML" value="903" />
-          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="CSS" value="1300" />
+          <entry key="HTML" value="2528" />
+          <entry key="JavaScript" value="278" />
+          <entry key="PHP" value="327" />
+          <entry key="PLAIN_TEXT" value="255" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
-          <entry key="php" value="1" />
+          <entry key="css" value="4" />
+          <entry key="html" value="2" />
+          <entry key="js" value="19" />
+          <entry key="php" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="19" />
+          <entry key="PHP" value="6" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -61,29 +73,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2080">
-              <caret line="141" column="88" selection-start-line="141" selection-start-column="88" selection-end-line="141" selection-end-column="88" />
+            <state relative-caret-position="228">
+              <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/classie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/telegram.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6933">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="317">
+              <caret line="385" column="1" lean-forward="true" selection-start-line="385" selection-start-column="1" selection-end-line="385" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -98,6 +137,10 @@
       <find>§</find>
       <find>cc_</find>
       <find>form</find>
+      <find>md-trigger</find>
+      <find>cc_btn</find>
+      <find>service</find>
+      <find>aler</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,8 +152,18 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/postmaster.php" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/Downloads/jbcallme/js/jquery.jbcallme.js" />
+        <option value="$PROJECT_DIR$/js/jquery.jbcallme.js" />
+        <option value="$PROJECT_DIR$/form.css" />
+        <option value="$PROJECT_DIR$/js/modernizr.custom.js" />
+        <option value="$PROJECT_DIR$/form.html" />
+        <option value="$PROJECT_DIR$/telegram.php" />
+        <option value="$PROJECT_DIR$/js/modalEffects.js" />
+        <option value="$PROJECT_DIR$/js/classie.js" />
+        <option value="$PROJECT_DIR$/js/css-filters-polyfill.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/component.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -158,6 +211,11 @@
               <item name="Fort" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fort" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Fort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fort" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,9 +244,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/me864/Desktop/Fort/css/main.css" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/me864/Desktop/Fort/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -199,6 +259,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -214,6 +275,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="form.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Fort/form.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.form.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -242,7 +313,10 @@
       <workItem from="1543258484205" duration="38000" />
       <workItem from="1543258529471" duration="1000" />
       <workItem from="1543259934076" duration="62000" />
-      <workItem from="1543264025083" duration="14097000" />
+      <workItem from="1543264025083" duration="14267000" />
+      <workItem from="1543431762688" duration="866000" />
+      <workItem from="1543433344757" duration="19535000" />
+      <workItem from="1543508968830" duration="14576000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1541874024549</created>
@@ -293,24 +367,31 @@
       <option name="project" value="LOCAL" />
       <updated>1542824109102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Почти продакшн">
+      <created>1543427656266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543427656266</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41657000" />
+    <option name="totallyTimeSpent" value="76804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.2366958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584025" visible="true" weight="0.2366958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50083196" side_tool="true" weight="0.2494043" />
+      <window_info id="Favorites" order="2" sideWeight="0.50415975" side_tool="true" weight="0.2366958" />
       <window_info id="Repositories" order="3" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933443" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -318,6 +399,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3294509" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294509" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,7 +477,8 @@
     <MESSAGE value="Исправил баги корусели и в хедере" />
     <MESSAGE value="Добавил калькулятор расчета" />
     <MESSAGE value="Изменил скорость загрузки&#10;Добавил стили на калькулятор &#10;заменил картинки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил скорость загрузки&#10;Добавил стили на калькулятор &#10;заменил картинки" />
+    <MESSAGE value="Почти продакшн" />
+    <option name="LAST_COMMIT_MESSAGE" value="Почти продакшн" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.css" />
@@ -416,31 +499,78 @@
     <entry file="file://$PROJECT_DIR$/Fort_logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.jbcallme.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postmaster.php">
+    <entry file="file://$PROJECT_DIR$/js/jquery.jbcallme.min.js" />
+    <entry file="file://$PROJECT_DIR$/postmaster.php" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.jbcallme.js" />
+    <entry file="file://$PROJECT_DIR$/form.css" />
+    <entry file="file://$PROJECT_DIR$/default.css" />
+    <entry file="file://$PROJECT_DIR$/js/modernizr.custom.js" />
+    <entry file="file://$PROJECT_DIR$/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="236">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="e#1054#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/cssParser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="385" column="1" lean-forward="true" selection-start-line="385" selection-start-column="1" selection-end-line="385" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/css-filters-polyfill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/modalEffects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/classie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2080">
-          <caret line="141" column="88" selection-start-line="141" selection-start-column="88" selection-end-line="141" selection-end-column="88" />
+        <state relative-caret-position="228">
+          <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6933">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>

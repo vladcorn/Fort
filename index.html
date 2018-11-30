@@ -18,7 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
     <!-- Style.css -->
     <link href="css/main.css" rel="stylesheet">
-    <script src="js/jquery.jbcallme.min.js"></script>
+    <link rel="stylesheet" href="component.css"/>
+    <script src="js/modernizr.custom.js"></script>
 
 </head>
 <body>
@@ -139,7 +140,7 @@
                         </div>
                         <h3>Basic</h3>
                         <p>I sink under the weight of the splendour of these visions. A wonderful serenity  Which for the bliss of souls like mine.</p>
-                        <button type="button" class="cc_btn" data-price="Комплект 'Basic', 300grh">Заказать</button>
+                        <button type="button" class="md-trigger" data-modal="modal-1" value="Комплект 'Basic', 300grh">Заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -149,7 +150,7 @@
                         </div>
                         <h3>Mid</h3>
                         <p>I sink under the weight of the splendour of these visions. A wonderful serenity  Which for the bliss of souls like mine.</p>
-                        <button type="button" class="cc_btn" data-price="Комплект 'MID', 200grh">Заказать</button>
+                        <button type="button" class="md-trigger" data-modal="modal-1" value="Комплект 'MID', 200grh" >Заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -159,12 +160,12 @@
                         </div>
                         <h3>Pro</h3>
                         <p>I sink under the weight of the splendour of these visions. A wonderful serenity  Which for the bliss of souls like mine.</p>
-                        <button type="button" class="cc_btn" data-price="Комплект 'PRO', 300grh">Заказать</button>
+                        <button type="button" class="md-trigger" data-modal="modal-1" value="Комплект 'PRO', 300grh" >Заказать</button>
                     </div>
                 </div>
             </div>
         </div>
-
+   
 
 </div>
 <!--<div class="price">
@@ -261,7 +262,7 @@
     <div class="footer-right">
 
         <div class="row">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41004.88516188766!2d36.367077300000005!3d50.033743599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa7b10febdc31470f!2z0KLQpiAi0K3QutCy0LDRgtC-0YAi!5e0!3m2!1sru!2sua!4v1543562842491" width="100%" height="50%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
         <div class="footer-icons">
@@ -275,53 +276,23 @@
 
 </footer>
 
-<div id="background_div" style="position: absolute; z-index: 1000; opacity: 0.5; width: 100%; height: 2562px;
-    background: #b9c2e2; display: none; top: 0px; left: 0px;">
 
 
+<div class="md-modal md-effect-1" id="modal-1">
+    <div class="md-content">
+       <form action="telegram.php" method="post">
+           <h3>заказ оборудывания</h3>
+           <div>
+               <input type="name" name="user_name" placeholder="Ваше имя">
+               <input type="tel"  name="user_number" placeholder="+38(0**) *** ** **">
+               <p><b>Ваш заказ</b></p>
+               <input type="text" id="target" name="price">
+               <button type="submit" class="md-close"><b>ЗАКАЗАТЬ</b></button>
+           </div>
+       </form>
+    </div>
 </div>
-
-<div id="vToolsAlphaBg" style="position: absolute; z-index: 1000; opacity: 0.5; width: 1349px; height: 822px;
-        visibility: hidden; top: 0px; left: 0px; cursor: auto; display: none; background: rgb(204, 229, 251);">
-
-</div>
-
-
-<script>
-    $(function() {
-        $('.cc_btn').jbcallme({
-            postfix: 'service_order', // идентификатор окна
-            // поля tel и name установлены по-умолчанию. Отключаются добавлением no_tel:true и no_name:true
-            //no_tel: true, // не выводить стандартное поле телефона
-            no_name: true,
-            no_submit: true, // не выводить стандартную кнопку
-            title: "Заказ оборудывания", // заголовок окна
-            action_url: "/postmaster.php", // путь к обработчику запрсов
-            success: "Заказ принят и будет рассмотрен в ближайшее время",
-            fail: "Сообщение не доставлено. Извините за неудобство!",
-            fields: { // добавление полей
-                company: {
-                    required: true, // обязательное ли
-                    placeholder: "Ваше имя",
-                    type: "text",
-                },
-               price: {
-                    label: "Выбраный комплект и Цена",
-                    type: "text", // или "hidden", чтобы не выводилось в форме
-                },
-
-                action: { // невидимое поле, передющее тип формы
-                    type: "hidden",
-                    value: "service_order",
-                },
-                send: {
-                    type: "submit",
-                    value: "Заказать",
-                },
-            },
-        });
-    });
-</script>
+<div class="md-overlay"></div>
 
 <!--<script type="text/javascript">
     function SelectDefault()
@@ -339,6 +310,28 @@
         }else input.value = price*hours;
     }
 </script>-->
+<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+<script src="js/classie.js"></script>
+<script src="js/modalEffects.js"></script>
+
+
+<script>
+    $(document).on('click', 'button', function(){
+        var sum = $(this).val();
+        var input = document.getElementById('target');
+        input.value = sum;
+    });
+</script>
+
+
+<script>
+    function sum(id) {
+        var input = document.getElementById('target');
+        var summa = document.getElementById(id).value;
+        input.value =summa;
+    }
+</script>
+
 
 <!--Organization anchor scrolling-->
 <script>
@@ -356,25 +349,6 @@
     });
 
 </script>
-
-
-
-
-
-<script>
-    $(document).ready(function () {
-        $('.navbar').each(function () { // В данной строке limp - название Вашего класса для создания прозрачности.
-            $(this).animate({opacity: '5'}, 1); // В данной строке задаётся начальная прозрачность элемента.
-            $(this).mouseover(function () {
-                $(this).stop().animate({opacity: '1.0'}, 400); // В данной строке задаётся прозрачность элемента при наведении курсора.
-            });
-            $(this).mouseout(function () {
-                $(this).stop().animate({opacity: '5'}, 400); // В данной строке задаётся прозрачность элемента при уходе курсора с элемента.
-            });
-        });
-    });
-</script>
-
 
 <!--Wrap h1 and br in span tag, for minimize code-->
 <script>

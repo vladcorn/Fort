@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de2b6809-2636-484b-b0eb-85a26d8e8262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/telegram.php" afterDir="false" />
+    <list default="true" id="de2b6809-2636-484b-b0eb-85a26d8e8262" name="Default Changelist" comment="Предпро">
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/404.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/css-filters-polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cssParser.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/jquery.jbcallme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modalEffects.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modalEffects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postmaster.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram.php" beforeDir="false" afterPath="$PROJECT_DIR$/telegram.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,47 +28,57 @@
     <session id="-309337501">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="8" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1300" />
-          <entry key="html" value="2528" />
-          <entry key="js" value="278" />
-          <entry key="php" value="561" />
-          <entry key="txt" value="21" />
+          <entry key="css" value="2505" />
+          <entry key="html" value="3528" />
+          <entry key="js" value="363" />
+          <entry key="php" value="639" />
+          <entry key="txt" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1300" />
-          <entry key="HTML" value="2528" />
-          <entry key="JavaScript" value="278" />
-          <entry key="PHP" value="327" />
-          <entry key="PLAIN_TEXT" value="255" />
+          <entry key="CSS" value="2505" />
+          <entry key="HTML" value="3528" />
+          <entry key="JavaScript" value="363" />
+          <entry key="PHP" value="405" />
+          <entry key="PLAIN_TEXT" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="html" value="2" />
-          <entry key="js" value="19" />
-          <entry key="php" value="8" />
+          <entry key="css" value="8" />
+          <entry key="html" value="3" />
+          <entry key="ico" value="1" />
+          <entry key="js" value="30" />
+          <entry key="php" value="11" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="19" />
-          <entry key="PHP" value="6" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="2" />
+          <entry key="JavaScript" value="30" />
+          <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -76,31 +92,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
+            <state relative-caret-position="75">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/classie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/telegram.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -108,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="385" column="1" lean-forward="true" selection-start-line="385" selection-start-column="1" selection-end-line="385" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -126,13 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font</find>
-      <find>na</find>
-      <find>a</find>
-      <find />
-      <find>submt</find>
-      <find>.price</find>
-      <find>btn</find>
       <find>inp</find>
       <find>§</find>
       <find>cc_</find>
@@ -141,6 +133,28 @@
       <find>cc_btn</find>
       <find>service</find>
       <find>aler</find>
+      <find>оборудывания</find>
+      <find>о наше</find>
+      <find>обору</find>
+      <find>pro</find>
+      <find>targr</find>
+      <find>md-close</find>
+      <find>@</find>
+      <find>stopPropagation</find>
+      <find>ev</find>
+      <find>close</find>
+      <find>footer-lin</find>
+      <find>container</find>
+      <find>row</find>
+      <find>med</find>
+      <find>section</find>
+      <find>portfolio</find>
+      <find>selection</find>
+      <find>#portfolio</find>
+      <find>port</find>
+      <find>media</find>
+      <find>о нашей</find>
+      <find>#target</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,12 +171,12 @@
         <option value="$PROJECT_DIR$/form.css" />
         <option value="$PROJECT_DIR$/js/modernizr.custom.js" />
         <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/telegram.php" />
-        <option value="$PROJECT_DIR$/js/modalEffects.js" />
         <option value="$PROJECT_DIR$/js/classie.js" />
         <option value="$PROJECT_DIR$/js/css-filters-polyfill.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/component.css" />
+        <option value="$PROJECT_DIR$/js/modalEffects.js" />
+        <option value="$PROJECT_DIR$/telegram.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -210,6 +224,16 @@
             <path>
               <item name="Fort" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fort" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fort" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fort" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fort" type="b2602c69:ProjectViewProjectNode" />
@@ -317,6 +341,22 @@
       <workItem from="1543431762688" duration="866000" />
       <workItem from="1543433344757" duration="19535000" />
       <workItem from="1543508968830" duration="14576000" />
+      <workItem from="1549114607607" duration="3000000" />
+      <workItem from="1549121424528" duration="2646000" />
+      <workItem from="1549624210008" duration="5391000" />
+      <workItem from="1549635070520" duration="528000" />
+      <workItem from="1549800134798" duration="45000" />
+      <workItem from="1550743189730" duration="14000" />
+      <workItem from="1551611952886" duration="6045000" />
+      <workItem from="1551622494915" duration="480000" />
+      <workItem from="1551625723901" duration="138000" />
+      <workItem from="1551627846186" duration="77000" />
+      <workItem from="1551693347160" duration="15000" />
+      <workItem from="1552264404680" duration="356000" />
+      <workItem from="1552264781340" duration="265000" />
+      <workItem from="1555701778821" duration="73000" />
+      <workItem from="1555742832816" duration="3000" />
+      <workItem from="1557748000128" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1541874024549</created>
@@ -378,15 +418,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76804000" />
+    <option name="totallyTimeSpent" value="97364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49584025" visible="true" weight="0.2366958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48752078" visible="true" weight="0.2366958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50415975" side_tool="true" weight="0.2366958" />
+      <window_info id="Favorites" order="2" sideWeight="0.5124792" side_tool="true" weight="0.2366958" />
       <window_info id="Repositories" order="3" weight="0.32962668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
@@ -488,89 +528,75 @@
     <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css" />
     <entry file="file://$PROJECT_DIR$/css/footer.css" />
     <entry file="file://$PROJECT_DIR$/css/fonts.css" />
-    <entry file="file://$PROJECT_DIR$/images/404.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/404.jpg" />
     <entry file="file://$PROJECT_DIR$/images/button.png" />
     <entry file="file://$PROJECT_DIR$/images/carriage_1.png" />
     <entry file="file://$PROJECT_DIR$/images/coach_ico.png" />
     <entry file="file://$PROJECT_DIR$/images/complex_btn.png" />
     <entry file="file://$PROJECT_DIR$/images/logo1.jpg" />
-    <entry file="file://$PROJECT_DIR$/Fort_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.jbcallme.min.js" />
-    <entry file="file://$PROJECT_DIR$/postmaster.php" />
     <entry file="file://$PROJECT_DIR$/js/jquery.jbcallme.js" />
     <entry file="file://$PROJECT_DIR$/form.css" />
     <entry file="file://$PROJECT_DIR$/default.css" />
-    <entry file="file://$PROJECT_DIR$/js/modernizr.custom.js" />
-    <entry file="file://$PROJECT_DIR$/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <element signature="e#1054#1059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/cssParser.js" />
+    <entry file="file://$PROJECT_DIR$/js/css-filters-polyfill.js" />
+    <entry file="file://$PROJECT_DIR$/form.html" />
+    <entry file="file://$PROJECT_DIR$/postmaster.php" />
+    <entry file="file://$PROJECT_DIR$/Fort_logo.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/cssParser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="385" column="1" lean-forward="true" selection-start-line="385" selection-start-column="1" selection-end-line="385" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/css-filters-polyfill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/js/jquery.jbcallme.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/modernizr.custom.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1124">
+        <state relative-caret-position="15">
           <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/modalEffects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        <state relative-caret-position="735">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/classie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
+        <state relative-caret-position="528">
           <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/telegram.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/horwheel-master/index.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="167" column="3" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#div#0;n#form#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
         </state>
       </provider>
     </entry>

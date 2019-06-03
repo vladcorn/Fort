@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+button, button:active, button:focus, input, input:active, input:focus{ outline: none;}
 .aboutBlock{
      padding-top: 60px;
      padding-bottom: 110px;
@@ -70,41 +71,6 @@
     box-shadow: 0px 0px 15px -5px #000000;
     position: relative;
 }
-
-
-@media only screen and (max-width: 1200px){
-    .blockItem{ margin: 0px 20px;}
-    header, header .block{height: 200px;}
-}
-
-@media only screen and (max-width: 991px) {
-    .blockItem{ margin: 0px;}
-    .block{padding: 0px;}
-    .articlesSection .blockItem{margin: 0px 40px;}
-    .articlesSection .mainArticlesModule .avatar{width: 110px;}
-    .articlesSection .mainArticlesModule .itemsLeft .text{ margin-right: 125px; height: inherit}
-    .articlesSection .mainArticlesModule .itemsRight .text{margin-left: 125px; height: inherit}
-    .body .blockItem{margin: 0px 60px;}
-    .body .blogItems .item{width: 100%;}
-}
-@media only screen and (max-width: 767px) {
-    .articlesSection .blockItem{margin: 0px 30px;}
-    .articlesSection .header h1{font-size: 125%;line-height: 25px;}
-    .articlesSection .mainArticlesModule .itemsLeft{width: 100%; max-width: none; padding: 0px;}
-    .articlesSection .mainArticlesModule .itemsRight{width: 100%; float: left;max-width: none;padding: 0px;}
-    .articlesSection .mainArticlesModule .itemsLeft .avatar{ float: left;}
-    .articlesSection .mainArticlesModule .itemsLeft .text{ margin:0px 0px 0px 125px; text-align: left; height: auto}
-    .body .blockItem{margin: 0px 30px;}
-}
-@media only screen and (max-width: 400px) {
-    .articlesSection .blockItem{margin: 0px 20px;}
-    .articlesSection .mainArticlesModule .avatar{ float: none; text-align: center;}
-    .articlesSection .mainArticlesModule .avatar img{width: 140px; margin-bottom: 8px;}
-    .articlesSection .mainArticlesModule .itemsLeft .text{ margin-left:0px; height: auto}
-    .articlesSection .mainArticlesModule .itemsRight .text{margin-left:0px; height: auto}
-    .body .blockItem{margin: 0px 20px;}
-}
-
 .articlesSection .mainArticlesModule .avatar img {
     width: 100%;
 }
@@ -202,6 +168,9 @@ label.error {
     margin: 20px 0 12px;
     padding: 0;
 }
+
+
+
 .footer-distributed .footer-links a {
     display: inline-block;
     line-height: 1.8;
@@ -240,7 +209,7 @@ label.error {
 }
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 12px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -261,7 +230,7 @@ label.error {
 .footer-distributed .footer-center i {
     background-color: #33383b;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 20px;
     width: 38px;
     height: 38px;
     border-radius: 50%;
@@ -270,6 +239,15 @@ label.error {
     margin: 10px 15px;
     vertical-align: middle;
 }
+.footer-distributed  i:hover{
+    color: #33383B;
+    background-color: #fafafa;
+}
+
+.footer-distributed .footer-icons a:hover{
+    background-color: #fafafa;
+}
+
 .footer-distributed .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
@@ -422,4 +400,148 @@ a:link{text-decoration:none;}
     -ms-transition-delay:.3s;
     -o-transition-delay:.3s;
     transition-delay:.3s;
+}
+.portfolio{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.portfolio_item{
+    height: auto;
+    width: 31.7%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.portfolio_item img{
+    width: 100%;
+    height: auto;
+}
+.project_details{
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0 ,0 ,0.69);
+
+}
+.project_details h3{
+    color: #ffffff;
+    padding-top: 20%;
+    padding-left: 20%;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.project_details:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30px;
+    display: block;
+    width: 30%;
+    height: 75%;
+    border: 8px solid rgba(255,255,255,0.5);
+    border-left: none;
+    z-index: 2;
+
+}
+.portfolio_item:hover .project_details{
+    display: block;
+}
+
+#selection_content{
+    padding-top: 217px;
+    width: 100%;
+    position: relative;
+}
+
+#selection_content:before{
+    content:'';
+    position: absolute;
+    z-index: 0;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    background: url("https://thepaintballpark.com/wp-content/uploads/2018/02/1121723-airsoft-wallpaper.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+}
+@media only screen and (max-width: 1200px){
+    .blockItem{ margin: 0px 20px;}
+    header, header .block{height: 200px;}
+    #selection_content:before{
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .blockItem{ margin: 0px;}
+    .block{padding: 0px;}
+    .articlesSection .blockItem{margin: 0px 40px;}
+    .articlesSection .mainArticlesModule .avatar{width: 110px;}
+    .articlesSection .mainArticlesModule .itemsLeft .text{ margin-right: 125px; height: inherit}
+    .articlesSection .mainArticlesModule .itemsRight .text{margin-left: 125px; height: inherit}
+    .body .blockItem{margin: 0px 60px;}
+    .body .blogItems .item{width: 100%;}
+    #selection_content:before{
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .articlesSection .blockItem{margin: 0px 30px;}
+    .articlesSection .header h1{font-size: 125%;line-height: 25px;}
+    .articlesSection .mainArticlesModule .itemsLeft{width: 100%; max-width: none; padding: 0px;}
+    .articlesSection .mainArticlesModule .itemsRight{width: 100%; float: left;max-width: none;padding: 0px;}
+    .articlesSection .mainArticlesModule .itemsLeft .avatar{ float: left;}
+    .articlesSection .mainArticlesModule .itemsLeft .text{ margin:0px 0px 0px 125px; text-align: left; height: auto}
+    .body .blockItem{margin: 0px 30px;}
+    .portfolio{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .portfolio_item{
+        width: 70%;
+    }
+    #selection_content:before{
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .articlesSection .blockItem{margin: 0px 20px;}
+    .articlesSection .mainArticlesModule .avatar{ float: none; text-align: center;}
+    .articlesSection .mainArticlesModule .avatar img{width: 140px; margin-bottom: 8px;}
+    .articlesSection .mainArticlesModule .itemsLeft .text{ margin-left:0px; height: auto}
+    .articlesSection .mainArticlesModule .itemsRight .text{margin-left:0px; height: auto}
+    .body .blockItem{margin: 0px 20px;}
+    .portfolio{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .project_details h3{
+        font-size: 15px;
+    }
+    .project_details:before{
+        top: 12%;
+    }
+
 }
